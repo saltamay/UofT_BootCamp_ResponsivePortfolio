@@ -38,15 +38,15 @@ nav {
 
 header nav a {
   color: #777777;
-  padding: 0 15px;
+  padding: 28px 20px;
   text-decoration: none;
 }
 
-/* header nav a:hover {
+header nav a:hover {
   background-color: #303336;
   color: #ffffff;
   opacity: 0.8;
-} */
+}
 
 main {
   margin: 20px 0 100px 0;
