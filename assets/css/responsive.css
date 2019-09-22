@@ -32,4 +32,27 @@
   .about-me-description {
     width: 55%;
   }
+
+  /* Portfolio Section Styles */
+
+  .portfolio-section {
+    width: 100%;
+  }
+
+  .portfolio-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    /* width: 100%; */
+  }
+
+  .portfolio-card {
+    background-size: cover;
+    width: 47%;;
+    height: 300px;
+    margin: 20px 0;
+  }
+
 }
