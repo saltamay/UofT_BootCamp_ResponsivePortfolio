@@ -51,7 +51,7 @@ header nav a {
 } */
 
 main {
-  margin-top: 20px;
+  margin: 20px 0 100px 0;
 }
 
 main .container {
@@ -144,8 +144,8 @@ footer {
 /* Contact Me Page Styles */
 
 form {
-  margin: 30px 15px 0 20px;
-  width: 100%;
+  margin: 30px auto;
+  width: 90%;
 }
 
 form input {
@@ -158,7 +158,7 @@ form input {
 form textarea {
   display: block;
   margin: 10px 0 15px 0;
-  width: 90%;
+  width: 96%;
 }
 
 .btn-submit {
