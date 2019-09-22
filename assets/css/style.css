@@ -120,19 +120,28 @@ main .ruler {
 
 .social {
   padding: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .social a {
   border: 1px #777777 solid;
   border-radius: 5px;
   color: #777777;
+  margin-bottom: 5px;
   text-decoration: none;
   padding: 10px 10px;
+}
+
+.social a span {
+  padding-left: 40%;
 }
 
 .social a:hover {
   padding: 15px 15px;
   transition: 0.10s ease-out;
+  box-shadow: 0px 0px 10px 5px #cccccc;
 } 
 
 footer {
