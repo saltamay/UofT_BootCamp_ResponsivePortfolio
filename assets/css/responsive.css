@@ -1,0 +1,35 @@
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+  header .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  } 
+  header h1 {
+    display: inline;
+    padding: 20px 20px;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+  }
+
+  .about-me-content {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+
+  .linkedin-badge {
+    width: 40%;
+  }
+
+  .about-me-description {
+    width: 55%;
+  }
+}
