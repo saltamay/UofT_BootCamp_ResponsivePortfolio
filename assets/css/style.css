@@ -180,47 +180,54 @@ form textarea {
 /* Portfolio Page Styles */
 
 .portfolio-section {
-  margin: 50px 20px 30px 20px;
-  width: 100%;
+  margin: 20px auto;
+  width: 90%;
 }
 
 .portfolio-cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
+  margin: 0 auto;
   width: 96%;
 }
 
 .portfolio-card {
   background-size: cover;
-  width: 250px;
-  height: 250px;
+  width: 100%;;
+  height: 300px;
   margin: 20px 0;
 }
 
 .landing-page {
   background-image: url('../images/landing-page.jpg');
+  background-size: cover;
 }
 
 .weather-log {
   background-image: url('../images/weather-log.jpg');
+  background-size: cover;
 }
 
 .transcript-agent {
   background-image: url('../images/ai-transcript.jpg');
+  background-size: cover;
 }
 
 .text-sense {
   background-image: url('../images/text-sense.jpg');
+  background-size: cover;
 }
 
 .travel-easy {
   background-image: url('../images/travel-made-easy.jpg');
+  background-size: cover;
 }
 
 .resume-rank {
   background-image: url('../images/resume.jpg');
+  background-size: cover;
 }
 
 .portfolio-card h1 {
@@ -230,6 +237,6 @@ form textarea {
   padding: 10px 10px;
   position: relative;
   text-align: center;
-  top: 215px;
+  top: 265px;
 }
 
