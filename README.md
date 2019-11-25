@@ -1,4 +1,4 @@
-## Responsive Portfolio with custom CSS and Media Queries
+# UofT SCS Full-Stack Web Development Boot Camp Project #2: Custom CSS and Media Queries Responsive Portfolio
 
 ### Overview
 
@@ -12,7 +12,7 @@ After I built basic portfolio, I realized that it does not look good on differen
 
 HTML5 and custom CSS3 with Media Queries
 
-### Features
+### Development Strategy
 
 1. Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.
     - You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
